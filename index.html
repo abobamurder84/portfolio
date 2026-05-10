@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Портфолио — проекты, навыки, контакты" />
+  <title>Портфолио</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="header">
+    <a class="logo" href="#">Портфолио</a>
+    <nav class="nav">
+      <a href="#resume">Резюме</a>
+      <a href="#work">Работы</a>
+      <a href="#skills">Навыки</a>
+      <a href="#contact" class="nav-cta">Связаться</a>
+    </nav>
+    <button type="button" class="menu-btn" aria-label="Меню" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="hero-tag">Доступен для проектов</p>
+      <h1 class="hero-title">
+        <span class="line">Привет, я</span>
+        <span class="line accent">abobaflex</span>
+      </h1>
+      <p class="hero-lead">
+        Делаю так, чтобы интерфейсы хотелось трогать, а код писался сам собой. 
+        Сочетаю вайб и логику: дизайн в профессиональных редакторах, одностраничные сайты, оживление через нейросети, плюс визуал для соцсетей.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#work">Смотреть работы</a>
+        <a class="btn btn-ghost" href="#contact">Написать</a>
+      </div>
+    </section>
+
+    <section id="resume" class="section resume" aria-labelledby="resume-heading">
+      <div class="section-head">
+        <h2 id="resume-heading">Резюме</h2>
+      </div>
+
+      <div class="resume-shell">
+        <div class="resume-main">
+          <article class="resume-card">
+            <h3 class="resume-card-title">
+              <span class="resume-card-icon" aria-hidden="true"></span>
+              Профиль
+            </h3>
+            <p class="resume-summary">
+              Опыт в <strong>дизайне и веб-интерфейсах</strong>. Фокус на вайб-кодинге, понятном UX и визуале для соцсетей. 
+              Создаю одностраничные сайты через нейросети. В работе важны метрики, стабильный код и скорость без потери качества. 
+              Сайты, которые приятно листать, и цифры, которые радуют.
+
+
+            </p>
+          </article>
+
+          <article class="resume-card">
+            <h3 class="resume-card-title">
+              <span class="resume-card-icon resume-card-icon--work" aria-hidden="true"></span>
+              Опыт работы
+            </h3>
+            <ol class="resume-timeline">
+              <li class="resume-job">
+                <div class="resume-job-head">
+                  <div class="resume-job-titles">
+                    <span class="resume-job-role">Дизайнер / Designer</span>
+                    <span class="resume-job-company">Продажа цифровых услуг</span>
+                  </div>
+                  <time class="resume-job-period" datetime="2022-03">мар 2024 — фев 2025</time>
+                </div>
+                <ul class="resume-list">
+                  <li>Запустил дизайн-макеты для сайта и соцсетей, которые повысили продажи цифровых услуг.</li>
+                  <li>Создал визуальную концепцию — от баннеров до постов для соцсетей.</li>
+                  <li>В работе: понятный UX, аккуратный визуал, скорость итераций..</li>
+                </ul>
+              </li>
+            </ol>
+          </article>
+
+          <article class="resume-card">
+            <h3 class="resume-card-title">
+              <span class="resume-card-icon resume-card-icon--edu" aria-hidden="true"></span>
+              Образование
+            </h3>
+            <ul class="resume-edu">
+              <li>
+                <div class="resume-edu-main">
+                  <span class="resume-edu-degree">Информационная безопасность телекоммуникационных систем</span>
+                  <span class="resume-edu-school">Орловский автодорожный техникум</span>
+                </div>
+                <time class="resume-edu-year" datetime="2026">2026</time>
+              </li>
+            </ul>
+          </article>
+        </div>
+
+        <aside class="resume-aside" aria-label="Краткая справка">
+          <div class="resume-side-card">
+            <h4 class="resume-side-title">Сводка</h4>
+            <dl class="resume-dl">
+              <div>
+                <dt>Локация</dt>
+                <dd>г. Орёл / удалённо</dd>
+              </div>
+              <div>
+                <dt>Формат</dt>
+                <dd>Полная занятость · проекты</dd>
+              </div>
+              <div>
+                <dt>Опыт</dt>
+                <dd>3 года в разработке</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="resume-side-card">
+            <h4 class="resume-side-title">Контакты</h4>
+            <ul class="resume-contact-list">
+              <li><a href="https://vk.com/hola_abola" target="_blank" rel="noopener noreferrer">Вконтакте</a></li>
+            </ul>
+          </div>
+          <div class="resume-side-card">
+            <h4 class="resume-side-title">Языки</h4>
+            <ul class="resume-lang">
+              <li><span>Русский</span> <span class="resume-lang-lvl">родной</span></li>
+              <li><span>Английский</span> <span class="resume-lang-lvl">A1 - начальный</span></li>
+            </ul>
+          </div>
+          <div class="resume-side-card">
+            <h4 class="resume-side-title">Стек</h4>
+            <div class="resume-tags">
+              <span>AI</span>
+              <span>Python</span>
+              <span>Figma</span>
+            </div>
+            <p class="resume-aside-note">Полный список — в блоке <a href="#skills">«Навыки»</a> ниже.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="work" class="section work">
+      <div class="section-head">
+        <h2>Избранные работы</h2>
+      </div>
+      <div class="projects">
+        <article class="project">
+          <div class="project-visual" style="--tint: #3d5a80;">
+            <video
+              src="media/gadem1.mp4"
+              poster=""
+              muted
+              loop
+              autoplay
+              playsinline
+              controls
+              preload="metadata"></video>
+          </div>
+          <div class="project-body">
+            <h3>VK DISIGN</h3>
+            <p>Что сделал: Сделал продающий лендинг для мастера ресниц (прайс, услуги, памятка, контакты).
+              Результат: Структурировал цены и услуги в понятный визуал, готовый к запуску для записи клиентов.
+            </p>
+            <div class="project-tags">
+              <span>Оформление</span>
+              <span>UX/UI - Figma</span>
+            </div>
+          </div>
+        </article>
+        <article class="project project-reverse">
+          <div class="project-visual" style="--tint: #ee6c4d;">
+            <video
+              src="media/gadem3.mp4"
+              poster=""
+              muted
+              loop
+              autoplay
+              playsinline
+              controls
+              preload="metadata"></video>
+          </div>
+          <div class="project-body">
+            <h3>Vibe Portfolio</h3>
+            <p>Что сделал: Разработан одностраничный сайт-портфолио с адаптивным дизайном, видеопрезентациями проектов, блоком резюме (опыт, образование, локация), навыками и контактами.
+              Рузультат: Готовый адаптивный одностраничный сайт-портфолио с видеокейсами, резюме и контактами для презентации работ в дизайне и веб-разработке.
+            </p>
+            <div class="project-tags">
+              <span>Сайт-портфолио</span>
+              <span>AI - VSCode</span>
+            </div>
+          </div>
+        </article>
+        <article class="project">
+          <div class="project-visual" style="--tint: #98c1d9;">
+            <video
+              src="media/gadem2.mp4"
+              poster=""
+              muted
+              loop
+              autoplay
+              playsinline
+              controls
+              preload="metadata"></video>
+          </div>
+          <div class="project-body">
+            <h3>TWITCH DISIGN</h3>
+            <p>Что сделал: Разработан дизайн-макет для Twitch-канала игрока (стримера по Dota 2, специализация — герой из игры). Включает баннер, иконку, блоки «Обо мне», статистику (MMR, ранг, матчи) и кнопку доната.
+              Результат: Готовый визуал, который подчеркивает профессионализм игрока, показывает ключевые достижения и мотивирует зрителя на донат или заказ коучинга.
+            </p>
+            <div class="project-tags">
+              <span>Оформление</span>
+              <span>UX/UI - Figma</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="section-head">
+        <h2>Навыки и инструменты</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Разработка</h3>
+          <ul>
+            <li>JavaScript / TypeScript</li>
+            <li>React / Vue</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Дизайн</h3>
+          <ul>
+            <li>Figma</li>
+            <li>UI / UX</li>
+            <li>Дизайн-системы</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Прочее</h3>
+          <ul>
+            <li>Git</li>
+            <li>AI</li>
+            <li>Аналитика</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-card">
+        <h2>Контакты</h2>
+        <div class="contact-links">
+          <a class="contact-pill" href="https://vk.com/hola_abola" target="_blank" rel="noopener noreferrer">Вконтакте</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> abobaflex. Сделано с вниманием к деталям.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
